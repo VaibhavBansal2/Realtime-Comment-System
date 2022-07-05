@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;600;800&display=swap');
+body {
+    background: whitesmoke;
+    -wekit-font-smoothing: antialiased;
+    font-family: 'Muli', sans-serif;
+}
+.comment__box {
+    list-style-type: none;
+    padding-left: 0;
+}
+.comment__box .comment h6 {
+    font-weight: 800;
+}
+p {
+    font-size: 16px;
+}
+.comment{
+    animation: cmt_anm .6s ease forwards;
+}
+@keyframes cmt_anm {
+    from{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
